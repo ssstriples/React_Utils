@@ -35,3 +35,26 @@ yarn create react-app todo-app
     "printWidth": 80
 }
 ```
+
+#### 1-2. index.css 수정
+- 프로젝트의 글로벌 스타일 파일 index.css 수정
+```css
+body {
+    margin : 0;
+    padding : 0;
+    background : #e9ecef;
+}
+```
+
+#### 1-3. App 컴포넌트 초기화
+```javascript
+const App = () => {
+  return <div>Todo App</div>
+};
+
+export default App;
+```
+
+### 2. UI구성
+
+#### 2-1.
