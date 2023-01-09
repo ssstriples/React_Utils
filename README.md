@@ -25,6 +25,13 @@ yarn create react-app todo-app
 
 #### 1-1. Prettier설정
 - 프로젝트 최상위 디렉터리에 .prettierrc 파일 생성
-```
-
+```javascript
+{
+    "singleQuote": true,
+    "semi": true,
+    "useTabs": false,
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "printWidth": 80
+}
 ```
